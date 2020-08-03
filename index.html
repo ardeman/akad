@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="frame">
+            <div class="bouquet-top">
+                <div></div>
+            </div>
+            <div class="bouquet-bottom">
+                <div></div>
+            </div>
+            <div class="rspv">
+                <div class="ardeman">Ardeman</div>
+                <div class="ampersand">&</div>
+                <div class="intanadela">Intan Adela</div>
+                <div class="info">
+                    <date>08.08.2020</date><br />
+                    <time>14:00 WIB</time><br />
+                    <loc>
+                        <a href="https://goo.gl/maps/3d52FDG9vcA7Gbfv6" target="_blank">
+                            KUA Sekupang, Batam
+                        </a>
+                    </loc>
+                </div>
+                <div class="add-to-calendar">
+                    <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=M2ZtamtvMDhjcmZiZzAzMjFmMWY2MGozbmwgYXJlLnRoZW1hbkBt&amp;tmsrc=are.theman%40gmail.com">
+                        <img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        window.addEventListener('resize', () => { 
+            document.querySelector(':root').style
+            .setProperty('--vh', window.innerHeight/100 + 'px');
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+.frame {
+    height: 100vh;
+    max-height: -webkit-fill-available;
+    text-align: center;
+
+    display: grid;
+    place-items: center;
+}
+
+.ardeman,
+.intanadela,
+.ampersand {
+    font-size: 3em;
+    font-family: 'Libre Baskerville', serif;
+    line-height: 0.9em;
+    color: #575557;
+}
+
+.ampersand {
+    font-style: italic;
+}
+
+.info {
+    margin-top: 10px;
+    color: #575557;
+}
+
+date {
+    border-top: 1px solid #575557;
+    line-height: unset;
+}
+
+loc {
+    border-bottom: 1px solid #575557;
+    line-height: unset;
+}
+
+a {
+    color: #575557;
+    text-decoration: none;
+}
+
+loc>a::after {
+    content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
+    margin: 0 3px 0 5px;
+}
+
+.add-to-calendar {
+    margin-top: 10px;
+}
+
+body {
+    font-family: system-ui, serif;
+    margin: 0;
+    background-color: rgba(255, 247, 243, 1);
+}
+
+.bouquet-top {
+    top: 5%;
+    left: 50%;
+    width: 323.8092px;
+    height: 119.6987px;
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+.bouquet-top> :first-child {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: contain;
+    background-image: url('assets/6063406ef38fbee581b4906c5d3b43007a7af5bb41af84beb760672e939c9091@1x.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+}
+
+.bouquet-bottom {
+    left: 50%;
+    width: 324.1518px;
+    bottom: 5%;
+    height: 103.5428px;
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+.bouquet-bottom> :first-child {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: contain;
+    background-image: url('assets/85c098b74b53cd30a11227ab41b43b343e0322f6f8949878bcc678efdc58ccdc@1x.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+}
