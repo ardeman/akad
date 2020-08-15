@@ -26,13 +26,20 @@
 }
 
 date {
-    border-top: 1px solid #575557;
     line-height: unset;
 }
 
 loc {
-    border-bottom: 1px solid #575557;
+    
     line-height: unset;
+}
+
+.upperline {
+    border-top: 1px solid #575557;
+}
+
+.underline {
+    border-bottom: 1px solid #575557;
 }
 
 a {
@@ -45,8 +52,12 @@ loc>a::after {
     margin: 0 3px 0 5px;
 }
 
-.add-to-calendar {
+.mt10 {
     margin-top: 10px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
 }
 
 body {
